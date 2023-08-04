@@ -16,8 +16,7 @@ const initdb = async () =>
 
 // TODO: Add logic to a method that accepts some content and adds it to the database
 // Export a function we will use to POST to the database.
-export const postDb = async (content)  => {
-  console.error('putDb not implemented');
+export const putDb = async (content)  => {
   console.log('PUT to the database');
 
   // Create a connection to the database database and version we want to use.
